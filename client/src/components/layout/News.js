@@ -56,7 +56,7 @@ const News = () => {
 
   return (
     <>
-      <div className='hello-about' id='about'></div>
+      {/* <div className='hello-about' id='about'></div>
       <div className='news-main'>
         <div className='news-inner'>
                 <div className='news-heading2'>
@@ -90,7 +90,7 @@ const News = () => {
             </figure>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
