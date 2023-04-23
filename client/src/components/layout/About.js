@@ -45,7 +45,7 @@ const About = () => {
             <div className='about-text'>
               <h2>Authentication and access control</h2>
               <p className='p1'>
-              The NFC solution would ensure that only 
+              The NFC solution ensures that only 
               authorized personnel have access to sensitive 
               areas or data by requiring officers to authenticate 
               themselves before accessing certain resources.
@@ -62,7 +62,8 @@ const About = () => {
               <p>
               All communications between the officer 
               and the supervisor would be encrypted to protect 
-              against unauthorized access
+              against unauthorized access. The data stored about 
+              every officer including passwords and fingerprints will be encrypted. 
               </p>
             </div>
           </div>
