@@ -42,7 +42,7 @@ function Testimonials() {
                           </div>
                       </center>
                   </div>
-                  <p className="paraa" style={{textAlign:"justify"}}>I was initially skeptical about implementing Aarakshak, but after seeing the results firsthand, I am impressed. It allowed us to securely track and authenticate our officers in real time, ensuring their safety and accountability. This has significantly improved our operations.</p>
+                  <p className="paraa" style={{textAlign:"justify"}}>I was initially skeptical about implementing Aarakshak, but after implementing this in my district and seeing results, I am impressed. It helps us securely track and authenticate our officers in real time, ensuring their safety and accountability. This has significantly improved our operations and efficiency while maintaing law & order in our region.</p>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ function Testimonials() {
                           </div>
                       </center>
                   </div>
-                  <p className="paraa" style={{textAlign:"justify"}}>Aarakshak has revolutionized the way we manage our police personnel on ground duty. The real-time tracking and authentication capabilities have allowed us to ensure the safety of our officers and the public they serve. The solution is easy to use and reliable.</p>
+                  <p className="paraa" style={{textAlign:"justify"}}>Aarakshak has revolutionized the way we are managing our police personnel on ground duty daily. This Near Field Communication based solution has real-time tracking and authentication capabilities have allowed us to ensure the safety of our officers and the public they serve. The solution is really very easy to use and reliable.</p>
                 </div>
               </div>
             </div>
