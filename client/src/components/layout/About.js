@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import '../../assets/css/about.css';
 // import LogoMain from '../../assets/logos/logo-main.png';
-import logoabt1 from '../../assets/logos/finance.svg';
-import logoabt2 from '../../assets/logos/connect.svg';
-import logoabt3 from '../../assets/logos/market.svg';
+import logoabt1 from '../../assets/images/logoabt1.png';
+import logoabt2 from '../../assets/images/logoabt2.png';
+import logoabt3 from '../../assets/images/logoabt3.png';
 import AOS from 'aos';
 
 const About = () => {
@@ -28,12 +28,12 @@ const About = () => {
               <img src={logoabt1} className='about-img'></img>
             </div>
             <div className='about-text'>
-              <h2>Financial Support</h2>
+              <h2>Real-time location tracking</h2>
               <p>
-                Adya has recognized funding as a major issue for women
-                entrepreneurs who want to start or grow their businesses. Adya
-                offers guidance on various funding options, including equity,
-                loans, applicable programmes and grants etc.
+              Aarakshak would track the location of police 
+              officers in real-time, allowing supervisors 
+              to monitor their whereabouts and respond quickly 
+              to emergencies.
               </p>
             </div>
           </div>
@@ -43,12 +43,12 @@ const About = () => {
               <img src={logoabt2} className='about-img'></img>
             </div>
             <div className='about-text'>
-              <h2>Connectivity</h2>
+              <h2>Authentication and access control</h2>
               <p className='p1'>
-                Adya's ultimate objective is to create a strong network of rural
-                women entrepreneurs to create an ecosystem of support, learning,
-                and collaboration based on the phrase "many hands make light
-                work".
+              The NFC solution ensures that only 
+              authorized personnel have access to sensitive 
+              areas or data by requiring officers to authenticate 
+              themselves before accessing certain resources.
               </p>
             </div>
           </div>
@@ -58,12 +58,12 @@ const About = () => {
               <img src={logoabt3} className='about-img'></img>
             </div>
             <div className='about-text'>
-              <h2>E-Marketplace</h2>
+              <h2>Data encryption</h2>
               <p>
-                Adya offers marketing support to startups to help them improve
-                their market for their products. The objective of this
-                initiative is to create a platform which helps to iteratively
-                increase your market presence.
+              All communications between the officer 
+              and the supervisor would be encrypted to protect 
+              against unauthorized access. The data stored about 
+              every officer including passwords and fingerprints will be encrypted. 
               </p>
             </div>
           </div>

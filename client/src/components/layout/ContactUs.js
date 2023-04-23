@@ -22,8 +22,7 @@ const ContactUs = () => {
 
                     <div className='contact-left-text'>
                         
-                        Adya is an initiative to promote and support aspiring as well as established rural women entrepreneurs. Adya enables  partnerships between Rural women and existing ventures.
-                        
+                        Aarakshak is a Near Field Communication-based solution, which can be used for securely tracking and authenticating police personnel on ground duty in real time.
                         <br></br><br></br>
                         
                         We assist rural women by providing them career possibilities and a source of income.
@@ -59,7 +58,7 @@ const ContactUs = () => {
                             <a target="blank" href="">
                                 <li class="fab fa-twitter fa-2x"></li>
                             </a>
-                            <p>© Adya Ventures | All rights reserved.</p>
+                            <p>© Aarakshak | All rights reserved.</p>
                         </div>
                     </div>
                 </div>
