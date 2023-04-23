@@ -1,7 +1,7 @@
 import '../../assets/css/navbar.css';
 // import LogoMain from '../../assets/logos/logo-main.png';
 // import { Link } from 'react-router-dom';
-import BannerPhoto from '../../assets/images/banner-photo.png';
+import BannerPhoto from '../../assets/images/Police.png';
 
 const Banner = () => {
   let URL;
@@ -37,7 +37,7 @@ const Banner = () => {
           </div>
         </div>
         <div className='banner-right'>
-          <img className='banner-photo' src={BannerPhoto}></img>
+          <img className='banner-photo' src={BannerPhoto} style={{borderRadius:20}}></img>
         </div>
       </div>
     </div>

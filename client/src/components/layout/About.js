@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import '../../assets/css/about.css';
 // import LogoMain from '../../assets/logos/logo-main.png';
-import logoabt1 from '../../assets/logos/finance.svg';
-import logoabt2 from '../../assets/logos/connect.svg';
-import logoabt3 from '../../assets/logos/market.svg';
+import logoabt1 from '../../assets/images/logoabt1.png';
+import logoabt2 from '../../assets/images/logoabt2.png';
+import logoabt3 from '../../assets/images/logoabt3.png';
 import AOS from 'aos';
 
 const About = () => {
