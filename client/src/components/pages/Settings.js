@@ -9,6 +9,9 @@ import Namelogo from '../../assets/logos/name.svg';
 import passwordlogo from '../../assets/logos/password.svg';
 import skilllogo from '../../assets/logos/skill.svg';
 import shglogo from '../../assets/logos/shg.svg';
+import genderlogo from '../../assets/logos/genderlogo.png';
+import emailogo from '../../assets/logos/emailogo.png';
+import locationping from '../../assets/logos/locationping.png';
 import phonelogo from '../../assets/logos/phone.svg';
 import NavbarInside from '../layout/NavbarInside';
 import swal from 'sweetalert';
@@ -126,7 +129,7 @@ const Settings = () => {
                 <div className='form-group col-sm-6'>
                   <label htmlFor='gender'>Gender : </label>
                   <span>
-                    <img className='updater' src={phonelogo}></img>
+                    <img className='updater' src={genderlogo}></img>
                   </span>
                   <input
                     type='text'
@@ -144,7 +147,7 @@ const Settings = () => {
                 <div className='form-group col-sm-6'>
                   <label htmlFor='email'>Email : </label>
                   <span>
-                    <img className='updater' src={phonelogo}></img>
+                    <img className='updater' src={emailogo}></img>
                   </span>
                   <input
                     type='text'
@@ -192,7 +195,7 @@ const Settings = () => {
                 <div className='form-group col-sm-6'>
                   <label htmlFor='age'>Age : </label>
                   <span>
-                    <img className='updater' src={phonelogo}></img>
+                    <img className='updater' src={Namelogo}></img>
                   </span>
                   <input
                     type='text'
@@ -206,57 +209,9 @@ const Settings = () => {
               </div>
               <div className='row'>
                 <div className='form-group col-sm-6'>
-                  <label htmlFor='state'>State : </label>
-                  <span>
-                    <img className='updater' src={Namelogo}></img>
-                  </span>
-                  <input
-                    type='text'
-                    name='state'
-                    placeholder={
-                      userState === '' ? 'Enter your state' : userState
-                    }
-                    value={userState}
-                    disabled={!canEdit}
-                    onChange={(e) => setUserState(e.target.value)}
-                  />
-                </div>
-                <div className='form-group col-sm-6'>
-                  <label htmlFor='district'>District : </label>
-                  <span>
-                    <img className='updater' src={phonelogo}></img>
-                  </span>
-                  <input
-                    type='text'
-                    name='district'
-                    placeholder={
-                      district === '' ? 'Enter your district' : district
-                    }
-                    value={district}
-                    disabled={!canEdit}
-                    onChange={(e) => setDistrict(e.target.value)}
-                  />
-                </div>
-              </div>
-              <div className='row'>
-                <div className='form-group col-sm-6'>
-                  <label htmlFor='city'>City : </label>
-                  <span>
-                    <img className='updater' src={Namelogo}></img>
-                  </span>
-                  <input
-                    type='text'
-                    name='city'
-                    placeholder={city === '' ? 'Enter your city' : city}
-                    value={city}
-                    disabled={!canEdit}
-                    onChange={(e) => setCity(e.target.value)}
-                  />
-                </div>
-                <div className='form-group col-sm-6'>
                   <label htmlFor='locality'>Locality : </label>
                   <span>
-                    <img className='updater' src={phonelogo}></img>
+                    <img className='updater' src={locationping}></img>
                   </span>
                   <input
                     type='text'
@@ -269,10 +224,59 @@ const Settings = () => {
                     onChange={(e) => setLocality(e.target.value)}
                   />
                 </div>
+                <div className='form-group col-sm-6'>
+                  <label htmlFor='city'>City : </label>
+                  <span>
+                    <img className='updater' src={locationping}></img>
+                  </span>
+                  <input
+                    type='text'
+                    name='city'
+                    placeholder={city === '' ? 'Enter your city' : city}
+                    value={city}
+                    disabled={!canEdit}
+                    onChange={(e) => setCity(e.target.value)}
+                  />
+                </div>
               </div>
               <div className='row'>
+              <div className='form-group col-sm-6'>
+                  <label htmlFor='district'>District : </label>
+                  <span>
+                    <img className='updater' src={locationping}></img>
+                  </span>
+                  <input
+                    type='text'
+                    name='district'
+                    placeholder={
+                      district === '' ? 'Enter your district' : district
+                    }
+                    value={district}
+                    disabled={!canEdit}
+                    onChange={(e) => setDistrict(e.target.value)}
+                  />
+                </div>
                 <div className='form-group col-sm-6'>
-                  <label htmlFor='skill'>Skill : </label>
+                  <label htmlFor='state'>State : </label>
+                  <span>
+                    <img className='updater' src={locationping}></img>
+                  </span>
+                  <input
+                    type='text'
+                    name='state'
+                    placeholder={
+                      userState === '' ? 'Enter your state' : userState
+                    }
+                    value={userState}
+                    disabled={!canEdit}
+                    onChange={(e) => setUserState(e.target.value)}
+                  />
+                </div>
+              </div>
+              
+              <div className='row'>
+                <div className='form-group col-sm-6'>
+                  <label htmlFor='skill'>Department : </label>
                   <span>
                     <img className='updater' src={skilllogo}></img>
                   </span>
@@ -287,7 +291,7 @@ const Settings = () => {
                 </div>
                 <div className='form-group col-sm-6'>
                   <label htmlFor='group'>
-                    Individual/Associated with a SHG :{' '}
+                    Employee ID :{' '}
                   </label>
                   <span>
                     <img className='updater' src={shglogo}></img>

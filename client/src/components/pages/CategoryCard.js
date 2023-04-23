@@ -41,9 +41,6 @@ const CategoryCard = ({ connectingUsers }) => {
                         <b> Skills </b> {':'} {connect.skill}
                       </li>
                       <li className='li-card'>
-                        <b> Individual / Associated </b> {':'} {connect.group}
-                      </li>
-                      <li className='li-card'>
                         <b> District</b> {':'}{' '}
                         {connect.district || connect.address.district}
                       </li>
