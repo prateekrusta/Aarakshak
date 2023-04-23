@@ -19,7 +19,7 @@ const NavbarMain = () => {
         <div className='nav-header'>
           <div className='nav-title'>
             <span className='nav-title-inner'>
-              Aarakshak
+            AaarHak
             </span>
             {/* <span className=''>
               <img src={LogoMain} className='brand-name-logo'></img>

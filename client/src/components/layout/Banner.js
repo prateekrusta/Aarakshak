@@ -18,7 +18,7 @@ const Banner = () => {
           <span className="hellospanner">Securely</span> tracking every move with <span className="hellospanner">NFC-based</span> police personnel monitoring
           </div>
           <div className='sub-heading'>
-          Aarakshak is a Near Field Communication-based solution, 
+          Aarakshak is a Near Field Communication based solution, 
           which can be used for securely tracking and authenticating 
           police personnel on ground duty in real time.
           </div>
@@ -37,7 +37,7 @@ const Banner = () => {
           </div>
         </div>
         <div className='banner-right'>
-          <img className='banner-photo' src={BannerPhoto} style={{borderRadius:20}}></img>
+          <img className='banner-photo' src={BannerPhoto} style={{borderRadius:100}}></img>
         </div>
       </div>
     </div>
