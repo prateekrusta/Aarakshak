@@ -18,9 +18,12 @@ const NavbarMain = () => {
       <nav className='nav'>
         <div className='nav-header'>
           <div className='nav-title'>
-            <span className=''>
-              <img src={LogoMain} className='brand-name-logo'></img>
+            <span className='nav-title-inner'>
+              Aarakshak
             </span>
+            {/* <span className=''>
+              <img src={LogoMain} className='brand-name-logo'></img>
+            </span> */}
           </div>
         </div>
         <div className='nav-btn'>
@@ -37,8 +40,8 @@ const NavbarMain = () => {
           </a>
           <a href={`${URL}/#about`}>ABOUT</a>
           <a href={`${URL}/#contact`}>CONTACT</a>
-          <a href={`${URL}/#donate`}>DONATE</a>
-          <Donate />
+          {/* <a href={`${URL}/#donate`}>DONATE</a>
+          <Donate /> */}
           <a href={`${URL}/#login`} className='loginbtn'>
             LOGIN
           </a>

@@ -133,7 +133,7 @@ const Register = (props) => {
                 />
               </div>
               <div className='form-group col-md-4'>
-                <label htmlFor='skill'>Skill</label>
+                <label htmlFor='skill'>Department</label>
                 <input
                   type='text'
                   name='skill'
@@ -185,8 +185,8 @@ const Register = (props) => {
             </div>
 
             <div className='row'>
-              <div className='form-group col-md-6'>
-                <label htmlFor='group'>Individual/Associated with SHG</label>
+              <div className='form-group col-md-4'>
+                <label htmlFor='group'>Employee ID</label>
                 <input
                   type='text'
                   name='group'
@@ -196,8 +196,8 @@ const Register = (props) => {
                   autoComplete='off'
                 />
               </div>
-              <div className='form-group col-md-3'>
-                <label htmlFor='password'>PIN</label>
+              <div className='form-group col-md-4'>
+                <label htmlFor='password'>Password</label>
                 <input
                   type='password'
                   name='password'
@@ -209,8 +209,8 @@ const Register = (props) => {
                   className='pinner'
                 />
               </div>
-              <div className='form-group col-md-3'>
-                <label htmlFor='password2'>Confirm PIN</label>
+              <div className='form-group col-md-4'>
+                <label htmlFor='password2'>Confirm Password</label>
                 <input
                   type='password'
                   name='password2'
