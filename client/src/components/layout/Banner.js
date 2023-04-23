@@ -15,14 +15,12 @@ const Banner = () => {
       <div className='banner-main-inner'>
         <div className='banner-left'>
           <div className='main-heading'>
-            Promoting <span className='hellospanner'>&</span> Supporting Female{' '}
-            <span className='hellospanner'>Entrepreuners</span>, Bringing Them{' '}
-            <span className='hellospanner'>Together</span>.{' '}
+          <span className="hellospanner">Securely</span> tracking every move with <span className="hellospanner">NFC-based</span> police personnel monitoring
           </div>
           <div className='sub-heading'>
-            Adya, an initiative to promote and support aspiring as well as
-            established rural women entrepreneurs. Adya enables
-            partnerships between Rural women and existing ventures.
+          Aarakshak is a Near Field Communication-based solution, 
+          which can be used for securely tracking and authenticating 
+          police personnel on ground duty in real time.
           </div>
 
           <div className='button-banner-cont'>
