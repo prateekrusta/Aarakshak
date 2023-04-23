@@ -30,21 +30,21 @@ const Schemes = () => {
                 <div className="cardcard" data-aos="fade-down">
                     <div className="content">
                     <h2 className="title">Lorem ipsum</h2>
-                    <p className="copy" style={{textAlign:"justify"}}>Lorem ipsum et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                    <p className="copy" style={{textAlign:""}}>Lorem ipsum et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     <a href="https://www.govtgk.com/orient-mahila-vikas-yojana/" target="_blank" rel="noopener noreferrer"><button className="btnschemes">Know More!</button></a>
                     </div>
                 </div>
                 <div className="cardcard" data-aos="fade-up">
                     <div className="content">
                     <h2 className="title">Lorem ipsum</h2>
-                    <p className="copy" style={{textAlign:"justify"}}>Lorem ipsum et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                    <p className="copy" style={{textAlign:""}}>Lorem ipsum et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     <a href="https://aatmnirbharsena.org/blog/dena-shakti-scheme/" target="_blank" rel="noopener noreferrer"><button className="btnschemes">Know More!</button></a>
                     </div>
                 </div>
                 <div className="cardcard" data-aos="fade-down">
                     <div className="content">
                     <h2 className="title">Lorem ipsum</h2>
-                    <p className="copy" style={{textAlign:"justify"}}>Lorem ipsum et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                    <p className="copy" style={{textAlign:""}}>Lorem ipsum et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     <a href="https://www.lendingkart.com/blog/udyogini-scheme/" target="_blank" rel="noopener noreferrer"><button className="btnschemes">Know More!</button></a>
                     </div>
                 </div>

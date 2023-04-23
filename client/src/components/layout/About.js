@@ -53,8 +53,8 @@ const About = () => {
               <p>
               All communications between the officer 
               and the supervisor would be encrypted to protect 
-              against unauthorized access. The data stored about 
-              every officer including passwords and fingerprints will be encrypted. 
+              against unauthorized access. The sensitive data stored about 
+              every officer is encrypted. 
               </p>
             </div>
           </div>

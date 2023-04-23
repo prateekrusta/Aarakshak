@@ -99,12 +99,12 @@
   background-size: cover;
 }
 .cardcard:nth-child(2):before {
-  background-image: url('../images/scene2.jfif');
+  background-image: url('../images/scene2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .cardcard:nth-child(3):before {
-  background-image: url('../images/scene3.jfif');
+  background-image: url('../images/scene3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
