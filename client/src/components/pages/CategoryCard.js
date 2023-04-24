@@ -38,7 +38,7 @@ const CategoryCard = ({ connectingUsers }) => {
                         <b>Mobile Number</b> {':'} {connect.phone}
                       </li>
                       <li className='li-card'>
-                        <b> Skills </b> {':'} {connect.skill}
+                        <b> Department </b> {':'} {connect.skill}
                       </li>
                       <li className='li-card'>
                         <b> District</b> {':'}{' '}
